@@ -1,0 +1,12 @@
+main: fr.benxcraft.advantage.Advantage
+name: BenxCraftAdvantage
+version: 1.0.0
+api-version: 1.19
+authors:
+  - 82.111.109.49#7180
+commands:
+  agive:
+    aliases:
+      - ag
+    description: Give you a custom item
+    permission: advantage.agive
