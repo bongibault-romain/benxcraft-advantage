@@ -1,10 +1,5 @@
 package fr.benxcraft.advantage.items.eatable;
 
-import org.bukkit.Material;
-import org.bukkit.entity.Player;
-import org.bukkit.event.Cancellable;
-import org.bukkit.event.Event;
-import org.bukkit.event.player.PlayerItemConsumeEvent;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
@@ -25,8 +20,8 @@ public class CocaineItem extends PotionItem {
     @Override
     public List<PotionEffect> getPotionEffects() {
         return Arrays.asList(
-                new PotionEffect(PotionEffectType.SPEED, 200, 3, false, false),
-                new PotionEffect(PotionEffectType.WEAKNESS, 100, 3, false, false)
+                new PotionEffect(PotionEffectType.SPEED, 600, 3, false, false),
+                new PotionEffect(PotionEffectType.WEAKNESS, 600, 3, false, false)
         );
     }
 

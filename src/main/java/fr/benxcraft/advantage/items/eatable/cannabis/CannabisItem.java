@@ -1,6 +1,6 @@
-package fr.benxcraft.advantage.items.eatable;
+package fr.benxcraft.advantage.items.eatable.cannabis;
 
-import org.bukkit.Material;
+import fr.benxcraft.advantage.items.eatable.PotionItem;
 import org.bukkit.enchantments.EnchantmentOffer;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
@@ -13,21 +13,9 @@ import org.bukkit.potion.PotionEffectType;
 import java.util.Arrays;
 import java.util.List;
 
-public class CannabisItem extends PotionItem {
+public abstract class CannabisItem extends PotionItem {
 
-    public int getAddedLevels() {
-        return 2;
-    }
-
-    @Override
-    public int getCustomModelData() {
-        return 2;
-    }
-
-    @Override
-    public String getDisplayName() {
-        return "§cCannabis";
-    }
+    public abstract int getAddedLevels();
 
     @Override
     public List<Class<?>> getHandlers() {
@@ -89,19 +77,14 @@ public class CannabisItem extends PotionItem {
     }
 
     public boolean isLucky(Player player) {
-        return player.getActivePotionEffects().stream().anyMatch(potionEffect -> potionEffect.getType().equals(PotionEffectType.LUCK));
-    }
-
-    @Override
-    public String getIdentifier() {
-        return "cannabis";
+        return player.getActivePotionEffects().stream().anyMatch(potionEffect -> potionEffect.getType().equals(PotionEffectType.LUCK) && potionEffect.getAmplifier() == this.getAddedLevels() - 1);
     }
 
     @Override
     public List<PotionEffect> getPotionEffects() {
         return Arrays.asList(
-                new PotionEffect(PotionEffectType.LUCK, 1600, 0, false, false),
-                new PotionEffect(PotionEffectType.HUNGER, 400, 1, false, false)
+                new PotionEffect(PotionEffectType.LUCK, 1600, this.getAddedLevels() - 1, false, false),
+                new PotionEffect(PotionEffectType.HUNGER, 200, 99, false, false)
         );
     }
 }

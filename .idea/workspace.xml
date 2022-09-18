@@ -10,37 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e071778f-c766-46c7-bfad-d245e0226ced" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BenxCraftAdvantage.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/Advantage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/commands/AGiveCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/armors/ArmorItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/armors/ArmorPotionEffectItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/armors/JumaItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/armors/RubyAmuletItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/armors/SpeederItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/armors/UltimateVisionItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/CannabisItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/CocaineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/EatableItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/MethamphetamineItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/PotionItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/tools/MultiPickaxeItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/tools/ToolItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/tools/UdarItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/tools/multipickaxe/MultiPickaxeLevelOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/tools/multipickaxe/MultiPickaxeLevelThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/tools/multipickaxe/MultiPickaxeLevelTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/listeners/ArmorListeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/listeners/PlayerListeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/managers/ItemManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/cannabis/CannabisLevelOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/cannabis/CannabisLevelThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/cannabis/CannabisLevelTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/Advantage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/Advantage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/CannabisItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/cannabis/CannabisItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/CocaineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/CocaineItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/MethamphetamineItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/items/eatable/MethamphetamineItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/managers/ItemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/benxcraft/advantage/managers/ItemManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +71,7 @@
       <recent name="fr.benxcraft.advantage.items" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fr.benxcraft.advantage.items.eatable.cannabis" />
       <recent name="fr.benxcraft.advantage.items.tools.multipickaxe" />
       <recent name="fr.benxcraft.advantage.items.tools" />
       <recent name="fr.benxcraft.advantage.items.armors" />
@@ -120,8 +99,17 @@
       <workItem from="1663426708136" duration="2406000" />
       <workItem from="1663429736296" duration="3409000" />
       <workItem from="1663433306570" duration="9576000" />
-      <workItem from="1663447138328" duration="216000" />
+      <workItem from="1663447138328" duration="1216000" />
+      <workItem from="1663449852878" duration="2135000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1663447361817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663447361817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +129,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,11 +1,5 @@
 package fr.benxcraft.advantage.items.eatable;
 
-import org.bukkit.Material;
-import org.bukkit.entity.Player;
-import org.bukkit.event.Event;
-import org.bukkit.event.player.PlayerItemConsumeEvent;
-import org.bukkit.inventory.ItemStack;
-import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 
@@ -26,8 +20,8 @@ public class MethamphetamineItem extends PotionItem {
     @Override
     public List<PotionEffect> getPotionEffects() {
         return Arrays.asList(
-                new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 200, 0, false, false),
-                new PotionEffect(PotionEffectType.CONFUSION, 100, 0, false, false)
+                new PotionEffect(PotionEffectType.INCREASE_DAMAGE, 900, 0, false, false),
+                new PotionEffect(PotionEffectType.CONFUSION, 200, 0, false, false)
         );
     }
 
